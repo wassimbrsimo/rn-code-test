@@ -1,6 +1,6 @@
 # RN Test Spec.
 
-### Create a new component called `Product`.
+### Create a new component called `Product`.✅
 - Component design: https://www.figma.com/file/bdgMzCq95xv9fHTsVq1gNL/Untitled?node-id=0%3A1
   - Use the `React Native Test` design.
 - The component must have rounded corners, similar to the design.
@@ -16,7 +16,7 @@
 - If a price is discounted, display the discounted price, and the original with strike-through.
 - If the product is has a final cost of 0, display the text `Free` instead of the price.
 
-### Update the second tab to display the information
+### Update the second tab to display the information ✅
 - This screen should consist of a vertical list.
 - Nested inside of this should be 3 horizontal lists. One for each product category.
 - The items on each category should be sorted according to the `order` specified in the product.
@@ -25,12 +25,12 @@
   - This animation needs to be custom made, using no packages.
   - Install the missing dependencies for this navigation.
 
-### Details screen
+### Details screen ✅
 - Create a screen that will display all of the information about the selected `Product`.
 - This screen should display the image at the top, the name underneath, the price under this and then the description underneath.
 - There must be a button at the top of the page to go back to the previous tabbed interface.
 
-### Native Integration.
+### Native Integration. ✅
 - Create a third tab on the application.
 - This tab will display some information that will be stored in `Info.plist` and `strings.xml`.
   - On Android, you can find this key as `service_key`, in the strings.xml file.
