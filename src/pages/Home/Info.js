@@ -1,20 +1,14 @@
 import React from 'react';
-import { SafeAreaView, Text, Linking, StyleSheet } from 'react-native';
-
-const Info = () => (
-  <SafeAreaView>
-    <Text>Follow the instructions in the README file at:</Text>
-    <Text
-      style={styles.link}
-      onPress={() => {
-        Linking.openURL(
-          'https://github.com/mypthub/rn-code-test/blob/master/README.md',
-        );
-      }}>
-      https://github.com/mypthub/rn-code-test/blob/master/README.md
-    </Text>
-  </SafeAreaView>
-);
+import { SafeAreaView, Text, Linking, StyleSheet, useEffect } from 'react-native';
+import Product from '../../components/Product/index'
+const Info = (props) => {
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <Text style={{ flex: 1, textAlignVertical: 'center', textAlign: 'center' }}>
+        Welcome
+      </Text>
+    </SafeAreaView>)
+};
 
 const styles = StyleSheet.create({
   link: {
